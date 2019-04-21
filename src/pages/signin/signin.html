@@ -1,0 +1,28 @@
+<!--
+Generated template for the SigninPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<!-- <ion-header>
+<ion-navbar>
+<ion-title>Anonymous Chat</ion-title>
+</ion-navbar>
+</ion-header> -->
+
+<ion-content padding>
+  <img src="assets/imgs/logoheartgrey.png"/>
+  <ion-title><b>Anonymous Chat</b></ion-title>
+
+  <form (ngSubmit)="enterNickname()" style="margin-top:65%;">
+    <ion-list>
+      <ion-item style="background-color:transparent;color:white;">
+        <!-- <ion-label style="text-align:center;" floating>Enter your Nickname</ion-label> -->
+        <ion-input style="text-align:center;" type="text" [(ngModel)]="data.nickname" placeholder="Enter Your Nickname" name="nickname" required=""></ion-input>
+      </ion-item>
+      <ion-item  style="background-color:transparent">
+        <button ion-button full round color="secondary" type="submit" default="true">Talk To Us</button>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

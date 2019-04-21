@@ -1,0 +1,43 @@
+::-webkit-input-placeholder {
+   color:#FFFFFF !important;
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color:#FFFFFF !important;
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color:#FFFFFF !important;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+  color:#FFFFFF !important;
+   text-align: center;
+}
+
+page-signin > ion-content{
+
+  background-image: url('../assets/imgs/background.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  img{
+    height: 30vh;
+    width: auto;
+    margin: auto;
+    display: block;
+  }
+  ion-title{
+    text-align: center;
+    padding-top: 4vh;
+    font-family: Helvetica !important;
+    font-weight: bold !important;
+    b{
+        color: #333333;
+    }
+  }
+}
